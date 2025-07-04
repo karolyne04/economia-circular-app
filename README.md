@@ -3,8 +3,8 @@
 Aplicação full-stack com formulário, envio de e-mail, banco de dados e exibição de dados, com tema de economia circular.
 
 ## 🔗 Link da Aplicação
-- [Frontend (Vercel)](https://...)
-- [Backend (Render)](https://...)
+- [Frontend (Vercel)](https://front-circular-h7f6149uz-karolyne04s-projects.vercel.app/)
+- [Backend (Render)](https://economia-circular-app.onrender.com/api)
 
 ## 🖥️ Tecnologias
 - React + Vite + Tailwind
@@ -21,8 +21,8 @@ cd economia-circular-app
 # Instalar dependências do backend
 cd backend
 npm install
-cp .env.example .env # preencha com suas credenciais
-npm run dev
+cp .env.example .env # preencha com suas credenciais ferreiracarolyne04@gmail.com    eige itir iebw splc
+node index.js
 
 # Instalar dependências do frontend
 cd ../frontend
