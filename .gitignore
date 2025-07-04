@@ -1,0 +1,11 @@
+# node modules
+**/node_modules
+**/dist
+
+# ambiente
+**/.env
+
+# sistema
+.DS_Store
+.env
+.vscode
