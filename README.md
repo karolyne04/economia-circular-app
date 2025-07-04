@@ -21,7 +21,7 @@ cd economia-circular-app
 # Instalar dependências do backend
 cd backend
 npm install
-cp .env.example .env # preencha com suas credenciais ferreiracarolyne04@gmail.com    eige itir iebw splc
+cp .env.example .env 
 node index.js
 
 # Instalar dependências do frontend
