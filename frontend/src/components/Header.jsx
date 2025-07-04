@@ -8,8 +8,8 @@ export default function Header() {
     <header className="header-container">
       <div className="header-content">
         <div className="header-logo">
-          <img src={logo} alt="Logo" className="logo" />
-          {/* Você pode trocar por uma imagem se quiser */}
+          
+         
           <span className="logo-circle">EC</span>
           <span className="header-title">Economia Circular</span>
         </div>

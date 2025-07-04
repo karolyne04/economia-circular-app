@@ -1,9 +1,10 @@
 import Formulario from "../components/Formulario";
 import { FaRecycle, FaLeaf, FaGlobe } from "react-icons/fa";
-import "../components/Home.css"; // vamos criar esse arquivo
+import "../components/Home.css"; 
 import globo from "../assets/globo.jpg";
 import green from "../assets/chart-green.webp"
 import infinito from "../assets/ifinito.avif"
+
 
 export default function Home() {
   return (
@@ -22,9 +23,19 @@ export default function Home() {
           <FaGlobe title="Consumo consciente" />
         </div>
         <div className="home-images">
-          <img src={globo} alt="globo" className="home-img" />
-          <img src={green} alt="gráfico economia circular" className="home-img" />
-          <img src={infinito} alt="infinito" className="home-img" />
+          <figure>
+            <img src={globo} alt="Planeta Terra sustentável" className="home-img" />
+            <figcaption>O planeta precisa de novos ciclos</figcaption>
+          </figure>
+          <figure>
+            <img src={green} alt="Gráfico de economia circular" className="home-img" />
+            <figcaption>O ciclo circular: produção, uso, reciclagem</figcaption>
+          </figure>
+          <figure>
+            <img src={infinito} alt="Símbolo do infinito" className="home-img" />
+            <figcaption>Reaproveitamento contínuo de recursos</figcaption>
+          </figure>
+          
         </div>
       </section>
       <section className="home-form">

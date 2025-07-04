@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api"; // ajuste para produção se necessário
+const API_URL = "https://economia-circular-app.onrender.com/api"; // ajuste para produção se necessário
 
 export async function enviarFormulario(dados) {
   return axios.post(`${API_URL}/formulario`, dados);
