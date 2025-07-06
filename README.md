@@ -3,7 +3,7 @@
 Aplicação full-stack com formulário, envio de e-mail, banco de dados e exibição de dados, com tema de economia circular.
 
 ## 🔗 Link da Aplicação
-- [Frontend (Vercel)](https://front-circular-h7f6149uz-karolyne04s-projects.vercel.app/)
+- [Frontend (Vercel)](https://front-circular.vercel.app/)
 - [Backend (Render)](https://economia-circular-app.onrender.com/api)
 
 ## 🖥️ Tecnologias
